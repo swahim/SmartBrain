@@ -37,18 +37,18 @@ const SignIn = ({routeChange, setId, setEntries, setDisplayName}) => {
     }
     
 
-
+   
     return (
       <div className="card">
         <div className="container">
           <h2>Sign In</h2>
           <input onChange={emailChange} type="text" className="email signinEmail" placeholder="Email"></input>
           <label htmlFor="email">Email</label>
-          
           <input onChange={passwordChange} type="password" className="password signinPassword" placeholder="Password"></input>
           <label htmlFor="password">Password</label>
           <button id="submit" onClick={onSubmit} type="submit">Sign In</button>
           <a onClick={() => routeChange('register')} className="registerLink">Register</a>
+          
         </div>
       </div>
     )

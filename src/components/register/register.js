@@ -5,7 +5,7 @@ const Register = ({routeChange, setId, setEntries, setDisplayName}) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
+  // const mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
   const nameChange = (event) => {
       setName(event.target.value);
   }
