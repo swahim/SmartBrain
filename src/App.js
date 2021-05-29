@@ -16,7 +16,7 @@ const app = new Clarifai.App({
   apiKey: '857608ae43c54ba1ae90c8025fa80a2a',
 });
 
-const url = 'http://localhost:8000';
+const url = 'https://calm-bastion-00688.herokuapp.com';
 
 function App() {
 

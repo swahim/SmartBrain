@@ -1,0 +1,152 @@
+@media screen and (max-width: 2024px){
+    .container{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1775px){
+    .card{
+        height: 60vh;
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .container{
+        justify-content: space-evenly;
+    }
+    .registerLink:hover{
+        width: 30%;
+    }
+    .submit{
+        width: 30%;
+    }
+    
+}
+@media screen and (max-width: 1124px){
+    #submit{
+        width: 30%;
+    }
+    #description{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 970px){
+    .card{
+        margin-top: 20%;
+    }
+    .container{
+        width : 40%;
+    }
+}
+@media screen and (max-width:800px){
+    .Tilt{
+        display: none;
+    }
+    #info{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:700px){
+    .displayColors{
+        /* background : blue; */
+        justify-content : space-evenly;
+    }
+}
+@media screen and (max-width: 641px){
+    .card{
+        margin-top: 40%;
+    }
+    .container{
+        width : 50%;
+    }
+    #description{
+        margin-top:2%;
+    }
+    #info{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:688px){
+    #description{
+        font-size: 1.3rem;
+    }
+    #info{
+        font-size: 0.8rem;
+    }
+    .signOutButton{
+        width : 10%;
+        height: 60%;
+        margin-top:2%;
+    }
+    #detect{
+        width: 15%;
+    }
+}
+@media screen and (max-width:623px){
+    .signOutButton{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:562px){
+    .text{
+        margin-top: 5%;
+    }
+    #description{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .form > form{
+        margin-top: 5%;
+    }
+    .displayValue{
+        font-size: 0.7rem;
+    }
+    #inputImage{
+        width: 300px;
+        height: 300px;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 466px){
+    html{
+        font-size: 80%;
+    }
+    .registerLink:hover{
+        width: 50%;
+    }
+    .card{
+        margin-top: 40%;
+    }
+    .container{
+        width : 70%;
+        height: 90%;
+    }
+    .container > h2{
+        font-size: 2rem;
+    }
+    .container > input {
+        width: 60%;
+    }
+    .signOutButton{
+        font-size: 0.5rem;
+        width: 15%;
+        height: 50%;
+    }
+}
+@media screen and (max-width: 414px){
+    #detect{
+        width: 20%;
+    }
+    .input{
+        width: 80%;
+    }
+}
+@media screen and (max-width:320px){
+    .signOutButton{
+        width: 20%;
+    }
+    #inputImage{
+        width: 250px;height: 250px;
+    }
+}

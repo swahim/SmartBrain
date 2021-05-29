@@ -3,7 +3,7 @@ const ImageLinkForm = ({input, setInput, handleSubmit}) => {
     
     return (
         <div className="form">
-            <p>
+            <p id="description">
                 {"This magic Brain will detect colors in the picture. Give it a try"}
             </p>
             <p id="info">
@@ -13,7 +13,7 @@ const ImageLinkForm = ({input, setInput, handleSubmit}) => {
                 <input className="input" type="text"
                     onInput = {(e) => setInput(e.target.value)}
                 ></input>
-                <button onClick={handleSubmit}>Detect</button>
+                <button id="detect" onClick={handleSubmit}>Detect</button>
             </form>
             
         </div>

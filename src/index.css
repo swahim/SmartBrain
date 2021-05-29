@@ -101,6 +101,10 @@ body{
   flex-wrap: wrap;
 
 }
+#inputImage{
+  width: 500px;
+  height: 500px;
+}
 .color > input{
   width: 20%;
 }
@@ -200,6 +204,7 @@ body{
 #info{
   margin-top: 1%;
   font-size : 1.2rem;
+  text-align: center;
 }
 #submit{
   margin-top:10%;
